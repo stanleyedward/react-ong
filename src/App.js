@@ -1,18 +1,16 @@
 import './App.css';
 import Header from './Header.js';
+import Content from './Content.js';
+import Footer from './Footer.js';
 
 function App() {
-  function Namechange(){
-    const names = ["broke", "fake brokey", "very money", "somewhat money"];
-    const random = Math.floor(Math.random() * names.length);
-    return names[random];
-  }
   return (
     // <div className="App">
     <div>
       <h1>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</h1>
-      <p>im {Namechange()}</p>
+      <Content/>
       <Header/>
+      <Footer/>
     </div>
   );
 }
