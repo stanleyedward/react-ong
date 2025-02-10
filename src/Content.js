@@ -7,7 +7,7 @@ const Content = () => {
         return names[random];
     }
   return (
-    <div>
+    <div className='content-body'>
         <p>im {Namechange()}</p>
     </div>
   )

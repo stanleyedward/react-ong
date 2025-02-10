@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### setup
+1. `npx create-react-app react-ong`
+2. `cd react-ong`
+3. `npm start`
+4. `npm install web-vitals`
+5. `npm start`
+
 ## Available Scripts
 
 In the project directory, you can run:
